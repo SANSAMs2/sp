@@ -115,8 +115,8 @@ def get_llm_feedback(script, purpose, wpm):
 # --- 5. Streamlit UI 및 메인 실행 로직 ---
 
 def main():
-    st.set_page_config(page_title="Prep Master: AI 스피치 코치", layout="wide")
-    st.title("🎤 Prep Master: AI 스피치 코치 (STT 통합 버전)")
+    st.set_page_config(page_title="SpeakFit: AI 스피치 코치", layout="wide")
+    st.title("🎤 SpeakFit: AI 스피치 코치 (STT 통합 버전)")
     st.markdown("### 녹음 파일을 업로드하면 AI가 대본을 추출하고 분석합니다.")
     st.markdown("---")
 
